@@ -1,0 +1,43 @@
+/*header part with a background-color*/
+header{ 	
+	background-color: #999999; 
+}
+
+
+
+/*h1 part with centered and tetx aligned to left and new font  */
+h1{
+	text-align: center;
+	color: white;
+	text-transform:uppercase;
+}
+
+
+
+/*h2 part with a font-color*/
+h2{
+	color: #2C63CC;
+	text-transform:uppercase;
+}
+
+
+
+/*section part with a background-color*/
+section{
+	background-color: #999999;
+}
+
+
+/*links in under <nav></nav> part with a new font color and background-color*/
+a{
+	color: black;
+	text-align: left;
+	background-color: #D3D3D3;
+	
+}
+
+
+/*class left is selected to display none of the images mentioned iin the html code*/
+.left{
+	display: none;
+}

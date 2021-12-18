@@ -1,0 +1,15 @@
+h1,nav,h2{
+	text-align: center;
+	bor
+}
+
+body {
+
+  background: red;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: maroon;}
+  to {background-color: green;}
+}

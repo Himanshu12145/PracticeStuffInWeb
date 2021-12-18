@@ -1,0 +1,31 @@
+body{
+    background-color: palegoldenrod;
+    padding-left: 5%;
+}
+img{
+    width: 28%;
+    margin: calc(10%/6);
+    border-color: black;
+    border-radius: 1rem;
+    border-width: 5px;
+    border-style:solid;
+    
+}
+nav{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+    font-size: 4.01rem;
+    font-style:normal;
+    border-bottom: solid brown ;
+    margin-left: 1.5rem;
+    width: 30%;
+    margin: calc(10%/6);
+    transition:  all 3s 1s; 
+    background-color: palevioletred;
+    padding: 1.2rem;
+    box-sizing: content-box;
+}
+nav:hover{
+    
+    transition: margin-right 4s 2s;
+}

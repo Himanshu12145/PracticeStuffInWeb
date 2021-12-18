@@ -1,0 +1,28 @@
+/*            * is slower as compared to other selectors */
+header a{ 
+    font-size: 30px;
+    color: teal;
+}
+#dislikes a{
+    font-weight: bolder ;
+    color: red;
+
+}
+header:hover{
+    background-color: red;
+    color: yellow;
+
+}
+button{
+    background-color: burlywood;
+}
+button:hover::first-letter{
+    background-color: yellowgreen;
+    color: black;
+    font-size: larger;
+
+}
+header>a:nth-of-type(1){
+    background-color:black !important;
+
+}

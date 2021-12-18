@@ -1,0 +1,22 @@
+.font_weight{
+  font-weight: bolder;
+
+
+}
+.text_background_color{
+  color:  rgba(238, 187, 18, 0.788);
+  background-color: #F25733;
+}
+body {
+  background-color:  rgb(10, 110, 110)
+}
+h1{
+  font-size: 275px;
+  font-family: fantasy;
+  color: rgb(31,2,123);
+}
+p{
+  font-size: 20px;
+  font-family: inherit;
+  background-color: rgb(31,233,12);
+  }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>GetThePost</title>
+</head>
+
+<body>
+
+
+ <h1>This is the POST and GET methods here</h1>
+ <h2>GET</h2>
+ <!-- GET -->
+ <form action="http://localhost:3000/tacos" method="get">
+  <input type="text" name="meat">
+  <input type="number" name="qty">
+  <button type="submit">Get Results</button>
+ </form>
+
+ <h2>POST</h2>
+ <!-- POST -->
+ <form action="http://localhost:3000/tacos" method="post">
+  <input type="text" name="meat">
+  <input type="number" name="qty">
+  <button type="submit">Post This</button>
+ </form>
+
+</body>
+
+</html>
